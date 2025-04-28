@@ -192,9 +192,9 @@ $(document).ready(function(){
 
   navigator.mediaDevices.getUserMedia(VIDEO_CONSTRAINTS_FOR_FRONT)
 
-  .then(callBackLoadSuccess)
+  .then(callLoadSuccess)
 
-  .catch(callBackLoadError);
+  .catch(callLoadError);
 
 
 
@@ -662,7 +662,7 @@ function adjustScreens()
 
 
 
-function adjustProportions(1) {
+function adjustProportions() {
 
   video[0].width = videoCanvas.width;
 
@@ -672,7 +672,7 @@ function adjustProportions(1) {
 
 
 
-function initCtracker(1) {
+function initCtracker() {
 
   ctracker.init();
 
@@ -782,7 +782,7 @@ function checkBlink(dyLEL, dLE, dN, blinkTime)
 
   {
 
-    if (dyLE > 0.8)
+    if (dLE > 0.8)
 
     {
 
