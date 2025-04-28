@@ -65,7 +65,7 @@ $(document).ready(function(){
   });
 });
 
-function checkValue(step)
+function checkValue1(step)
 {
   let result = true;
 
@@ -104,7 +104,7 @@ function checkValue(step)
 }
 
 
-function calcValue()
+function calcValue1()
 {
   let result = 0;
   for (let i=0; i<12; i++)
@@ -118,7 +118,7 @@ function calcValue()
   return result;
 }
 
-function drawScoreBar (score)
+function drawScoreBars (score)
 {
   score = Math.round(score);
 

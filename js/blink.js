@@ -162,23 +162,23 @@ $(document).ready(function(){
 
   blinkAnimImage[0] = new Image();
 
-  blinkAnimImage[0].src = "https://mentholatumdryeye.github.io/blink/images/blink/star0.png";
+  blinkAnimImage[0].src = "./images/blink/star0.png";
 
   blinkAnimImage[1] = new Image();
 
-  blinkAnimImage[1].src = "https://mentholatumdryeye.github.io/blink/images/blink/star1.png";
+  blinkAnimImage[1].src = "./images/blink/star1.png";
 
   blinkAnimImage[2] = new Image();
 
-  blinkAnimImage[2].src = "https://mentholatumdryeye.github.io/blink/images/blink/star2.png";
+  blinkAnimImage[2].src = "./images/blink/star2.png";
 
   blinkAnimImage[3] = new Image();
 
-  blinkAnimImage[3].src = "https://mentholatumdryeye.github.io/blink/images/blink/star3.png";
+  blinkAnimImage[3].src = "./images/blink/star3.png";
 
   blinkAnimImage[4] = new Image();
 
-  blinkAnimImage[4].src = "https://mentholatumdryeye.github.io/blink/images/blink/star4.png";
+  blinkAnimImage[4].src = "./images/blink/star4.png";
 
 
 
