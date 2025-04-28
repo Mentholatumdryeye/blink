@@ -53,7 +53,7 @@ function appendLanguageScript()
 
     'type': 'text/javascript',
 
-    'src': 'https://mentholatumdryeye.github.io/test.io/language/'+lang+'.js'
+    'src': 'https://mentholatumdryeye.github.io/blink/language/'+lang+'.js'
 
   });
 
