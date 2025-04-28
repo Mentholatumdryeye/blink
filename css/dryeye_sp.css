@@ -106,7 +106,7 @@ input[type="radio"]:checked + .button-white .button-text-small {
     left: 150px;
     width: 38px;
     height: 42px;
-    background-image: url("../images/dryeye/point_circle.png");
+    background-image: url("https://mentholatumdryeye.github.io/test.io/images/dryeye/point_circle.png");
     background-size: 38px 42px;
 }
 
